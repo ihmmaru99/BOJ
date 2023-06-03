@@ -8,7 +8,7 @@ using namespace std;
 
 int l;
 int x_end, y_end;
-int field[MAX][MAX];
+int field[MAX][MAX] = {0, };
 bool visited[MAX][MAX] = {false, };
 int dx[8] = { -1,1,2,2,1,-1,-2,-2 };
 int dy[8] = { 2,2,1,-1,-2,-2,-1,1 };
@@ -45,9 +45,9 @@ int main() {
 		cin >> l;
 		int x0, y0;
 		cin >> x0 >> y0 >> x_end >> y_end;
-		field[x0][y0] = 1;
+		field[x0][y0] = 0;
 		bfs(x0,y0);
-		cout << field[x_end][y_end] - 1 << '\n';
+		cout << field[x_end][y_end] << '\n';
 		memset(visited, false, sizeof(visited));
 		memset(field, 0, sizeof(field));
 	}
