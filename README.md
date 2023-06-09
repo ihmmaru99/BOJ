@@ -1,2 +1,3 @@
 # BOJ
-BOJ Algorithm Solution
+---
+백준 문제 풀이
