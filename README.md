@@ -1,3 +1,3 @@
 # BOJ
 ---
-백준 문제 풀이
+Baekjoon Algorithm Solution
