@@ -1,3 +1,2 @@
 # BOJ
----
 Baekjoon Algorithm Solution
