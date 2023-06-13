@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     ios_base::sync_with_stdio(0);
     int people_num;
-    cin>>people_num;
+    cin >> people_num;
     
     stack<pair<int,int>> st;
     int now,cnt_same_height=0;
